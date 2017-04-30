@@ -1,5 +1,7 @@
 <?php
 // See https://codex.wordpress.org/Child_Themes for reference
+
+// Properly enqueue the child styles in order with the parent
 function my_theme_enqueue_styles() {
 
   $parent_style = 'illustratr-style';
