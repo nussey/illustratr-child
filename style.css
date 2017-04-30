@@ -11,3 +11,7 @@
  Tags:         light, dark
  Text Domain:  illustratr-child
 */
+
+.site-info {
+  display: none;
+}
