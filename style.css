@@ -12,6 +12,14 @@
  Text Domain:  illustratr-child
 */
 
+/* Remove the wordpress and illustratr attribution text at the bottom */
 .site-info {
   display: none;
+}
+
+/* Remove the red box that appears when hovering over portfolio images
+ * Instead, repalce it with a fade to greyscale effect */
+.portfolio-thumbnail a {
+  display: inline;
+  background: white;
 }
