@@ -23,3 +23,13 @@
   display: inline;
   background: white;
 }
+
+/* Remove the very ugly recent posts listing that appears under the comment section */
+.post-navigation {
+  display: none;
+}
+
+/* Remove the extra line that appears above the sharing toolbar from jetpack */
+div.sharedaddy h3.sd-title:before {
+  content: none;
+}
