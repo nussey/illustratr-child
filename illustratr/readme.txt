@@ -121,6 +121,28 @@ Available icons:
 
 == Changelog ==
 
+= 8 June 2017 =
+* Update widget styles to make sure too-long text doesn't overflow the space. Bump version number.
+
+= 7 June 2017 =
+* Update JavaScript that toggles hidden widget area, to make sure new video and audio widgets are displaying correctly when opened.
+
+= 22 March 2017 =
+* add Custom Colors annotations directly to the theme
+* move fonts annotations directly into the theme
+
+= 6 February 2017 =
+* Replace get_the_tag_list() with the_tags() for a more straightforward approach that prevents potential fatal errors.
+
+= 2 February 2017 =
+* remove from CSS in wp-content/themes/pub
+
+= 16 January 2017 =
+* Make sure Issuu embeds fit within content area.
+
+= 2 January 2017 =
+* Add `grid-layout` tag to style.css.
+
 = 7 July 2016 =
 * Let WordPress manage the document title by adding theme support
 

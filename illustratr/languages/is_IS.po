@@ -1,4 +1,4 @@
-# Translation of WordPress.com - Themes - Illustratr in Azerbaijani
+# Translation of WordPress.com - Themes - Illustratr in Icelandic
 # This file is distributed under the same license as the WordPress.com - Themes - Illustratr package.
 msgid ""
 msgstr ""
@@ -6,67 +6,76 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n % 100 != 1 && n % 100 != 21 && n % 100 != 31 && n % 100 != 41 && n % 100 != 51 && n % 100 != 61 && n % 100 != 71 && n % 100 != 81 && n % 100 != 91);\n"
 "X-Generator: GlotPress/2.4.0-alpha\n"
-"Language: az\n"
+"Language: is\n"
 "Project-Id-Version: WordPress.com - Themes - Illustratr\n"
-
-#: inc/wpcom-colors.php:168
-msgid "Accent"
-msgstr "Vurğu"
 
 #: inc/wpcom-colors.php:9
 msgid "Background"
-msgstr "Arxa fon"
+msgstr "Bakgrunnur"
 
 #. translators: used between list items, there is a space after the comma
 #: content-aside.php:45 content-audio.php:74 content-gallery.php:62
 #: content-image.php:56 content-link.php:45 content-quote.php:51
 #: content-status.php:49 content-video.php:74 content.php:84
 msgid "Tagged"
-msgstr "Etiketləndi"
+msgstr "Merkt"
+
+#: inc/jetpack.php:120
+msgid "Older projects"
+msgstr "Eldri verkefni"
+
+#: functions.php:106
+msgid "Hidden footer area that is revealed by the + button at the bottom of each page"
+msgstr "Falið svæði í fæti sem er birt með + hnappinum neðst á hverri síðu"
 
 #: functions.php:104
 msgid "Footer"
-msgstr "Zirzəmi"
+msgstr "Síðufótur"
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/pub/illustratr/page-templates/portfolio-page.php
+msgid "Portfolio Page Template"
+msgstr "Skapalón síðu verkefnalista"
 
 #. Description of the plugin/theme
 #: wp-content/themes/pub/illustratr/style.css
 msgid "A minimalist portfolio theme."
-msgstr "Minimalist portfel mövzusu."
+msgstr "Minimalískt verkefnalistaþema."
 
 #: sidebar.php:11
 msgid "Widgets"
-msgstr "Vidcetlər"
+msgstr "Aukahlutir"
 
 #: search.php:16
 msgid "Search Results for: %s"
-msgstr " %s üçün Axtarışın Nəticələri:"
+msgstr "Leitarniðurstöður fyrir: %s"
 
 #: page-templates/portfolio-page.php:86
 msgid "Ready to publish your first project? <a href=\"%1$s\">Get started here</a>."
-msgstr "İlk layihənizi dərc etməyə hazırsınızmı? <a href=\"%1$s\">Buradan başlayın</a>."
+msgstr "Tilbúin(n) að birta fyrsta verkefnið þitt? <a href=\"%1$s\">Byrja hér</a>."
 
 #: page-templates/portfolio-page.php:28
 msgid "Pages:"
-msgstr "Səhifələr:"
+msgstr "Síður:"
 
 #: inc/template-tags.php:125
 msgid "Your comment is awaiting moderation."
-msgstr "Şərhiniz yoxlama gözləyir."
+msgstr "Ummæli þín bíða samþykkis."
 
 #: inc/template-tags.php:109
 msgid "Author"
-msgstr "Müəllif"
+msgstr "Höfundur"
 
 #: inc/template-tags.php:106
 msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
-msgstr "%1$s %2$s"
+msgstr "%1$s kl %2$s"
 
 #: inc/template-tags.php:87
 msgid "Pingback:"
-msgstr "Geri bildiriş: "
+msgstr "Bakvísun:"
 
 #: inc/template-tags.php:65
 msgctxt "Next post link"
@@ -80,35 +89,35 @@ msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
 #: inc/template-tags.php:61
 msgid "Post navigation"
-msgstr "Yazı naviqasiyaları"
+msgstr "Færslu leiðarstýring"
 
 #: inc/template-tags.php:36
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Sonrakı <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Næsta <span class=\"meta-nav\">&rarr;</span>"
 
 #: inc/template-tags.php:32
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
-msgstr "<span class=\"meta-nav\">&larr;</span> Öncəki"
+msgstr "<span class=\"meta-nav\">&larr;</span> Fyrri"
 
 #: inc/template-tags.php:28
 msgid "Posts navigation"
-msgstr "Yazı naviqasiyaları"
+msgstr "Leiðarkerfi færslna"
 
 #: inc/extras.php:104
 msgid "Page %s"
-msgstr "Səhifə %s"
+msgstr "Síða %s"
 
 #: inc/customizer.php:24
 msgid "Hide title and content on Portfolio Page Template"
-msgstr "Portfel Səhifə Şablonunda başlığı və mühtəviyyatı gizlət"
+msgstr "Fela titil og efni á skapalóni fyrir verkefnasíðu"
 
 #: header.php:42
 msgid "Skip to content"
-msgstr "Mühtəviyyata keç"
+msgstr "Hoppa yfir í efni"
 
 #: header.php:41
 msgid "Menu"
-msgstr "Menyu"
+msgstr "Valmynd"
 
 #. translators: If there are characters in your language that are not supported
 #. * by Source Code Pro, translate this to 'off'. Do not translate into your
@@ -116,7 +125,7 @@ msgstr "Menyu"
 #: functions.php:190
 msgctxt "Source Code Pro font: on or off"
 msgid "on"
-msgstr "açıq"
+msgstr "virkt"
 
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
@@ -124,7 +133,7 @@ msgstr "açıq"
 #: functions.php:162
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
-msgstr "alt-set yoxdur"
+msgstr "enginn undirflokkur"
 
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
@@ -132,7 +141,7 @@ msgstr "alt-set yoxdur"
 #: functions.php:158
 msgctxt "PT Serif font: on or off"
 msgid "on"
-msgstr "açıq"
+msgstr "virkt"
 
 #. translators: To add an additional Source Sans Pro character subset specific
 #. to your language, translate this to 'vietnamese'. Do not translate into your
@@ -140,7 +149,7 @@ msgstr "açıq"
 #: functions.php:130
 msgctxt "Source Sans Pro font: add new subset (vietnamese)"
 msgid "no-subset"
-msgstr "alt-qurulum yoxdur"
+msgstr "no-subset"
 
 #. translators: If there are characters in your language that are not supported
 #. * by Source Sans Pro, translate this to 'off'. Do not translate into your
@@ -148,23 +157,23 @@ msgstr "alt-qurulum yoxdur"
 #: functions.php:126
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
-msgstr "açıq"
+msgstr "virkt"
 
 #: functions.php:76
 msgid "Social Menu"
-msgstr "Sosial menyu"
+msgstr "Valmynd samfélagsmiðla"
 
 #: functions.php:75
 msgid "Primary Menu"
-msgstr "Əsas menyu"
+msgstr "Aðalvalmynd"
 
 #: footer.php:30
 msgid "Theme: %1$s by %2$s."
-msgstr "Mövzu: %1$s tərəfindən %2$s."
+msgstr "Þema: %1$s eftir %2$s."
 
 #: footer.php:28
 msgid "Proudly powered by %s"
-msgstr "%s qürurla təqdim edər"
+msgstr "Drifið áfram af %s"
 
 #: content-portfolio-single.php:16 content-portfolio.php:21 content.php:42
 msgctxt "Used between list items, there is a space after the comma."
@@ -173,19 +182,19 @@ msgstr ", "
 
 #: content-none.php:28 page-templates/portfolio-page.php:90
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
-msgstr "Axtardığınız səhifə tapılmadı. Bəlkə axtarış qutusu axtardığınızı tapmaqda sizə kömək edər."
+msgstr "Það lítur út fyrir að við finnum ekki það sem þú sækist eftir. Hugsanlega hjálpar til að nota leitina."
 
 #: content-none.php:23
 msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
-msgstr "Bağışlayın, axtarış kriteriyalarınıza uyğun heç bir şey tapılmadı. Bəzi fərqli açar kəlmələrdən istifadə edərək təkrar yoxlayın."
+msgstr "Því miður, ekkert fannst sem passaði við leitarskilyrðin. Vinsamlega reyndu aftur með öðrum leitarorðum."
 
 #: content-none.php:19
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
-msgstr "İlk yazınızı dərc etməyə hazırsınızmı? <a href=\"%1$s\">Buradan başlayın</a>."
+msgstr "Tilbúin(n) til að birta fyrstu færsluna þína? <a href=\"%1$s\">Byrjaðu hér</a>."
 
 #: content-none.php:13 page-templates/portfolio-page.php:80
 msgid "Nothing Found"
-msgstr "Tapılmadı"
+msgstr "Ekkert fannst"
 
 #: content-aside.php:51 content-audio.php:80 content-gallery.php:68
 #: content-image.php:62 content-link.php:51 content-page.php:36
@@ -193,38 +202,38 @@ msgstr "Tapılmadı"
 #: content-video.php:80 content.php:91 inc/template-tags.php:87
 #: inc/template-tags.php:121 page-templates/portfolio-page.php:36
 msgid "Edit"
-msgstr "Redaktə et"
+msgstr "Breyta"
 
 #: content-aside.php:48 content-audio.php:77 content-gallery.php:65
 #: content-image.php:59 content-link.php:48 content-page.php:33
 #: content-portfolio-single.php:40 content-quote.php:54 content-status.php:52
 #: content-video.php:77 content.php:88
 msgid "% Comments"
-msgstr "% Şərh"
+msgstr "% Ummæli"
 
 #: content-aside.php:48 content-audio.php:77 content-gallery.php:65
 #: content-image.php:59 content-link.php:48 content-page.php:33
 #: content-portfolio-single.php:40 content-quote.php:54 content-status.php:52
 #: content-video.php:77 content.php:88
 msgid "1 Comment"
-msgstr "1 Şərh"
+msgstr "1 athugasemd"
 
 #: content-aside.php:48 content-audio.php:77 content-gallery.php:65
 #: content-image.php:59 content-link.php:48 content-page.php:33
 #: content-portfolio-single.php:40 content-quote.php:54 content-status.php:52
 #: content-video.php:77 content.php:88
 msgid "Leave a comment"
-msgstr "Bir şərh yazın"
+msgstr "Skrá ummæli"
 
 #: content-portfolio-single.php:36
 msgid "Tagged %1$s"
-msgstr "%1$s Etiketləndi"
+msgstr "Merkt %1$s"
 
 #: content-aside.php:41 content-audio.php:70 content-gallery.php:58
 #: content-image.php:52 content-link.php:41 content-quote.php:47
 #: content-status.php:45 content-video.php:70 content.php:79
 msgid "All %s posts"
-msgstr "bütün %s  yazıları"
+msgstr "Allar %s færslur"
 
 #. translators: used between list items, there is a space after the comma
 #: content-aside.php:30 content-aside.php:45 content-audio.php:43
@@ -234,120 +243,120 @@ msgstr "bütün %s  yazıları"
 #: content-quote.php:51 content-status.php:35 content-status.php:49
 #: content-video.php:43 content-video.php:74 content.php:34 content.php:84
 msgid ", "
-msgstr ","
+msgstr ", "
 
 #: content-aside.php:15 content-audio.php:11 content-gallery.php:44
 #: content-image.php:38 content-link.php:27 content-quote.php:15
 #: content-status.php:15 content-video.php:11 content.php:54
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
-msgstr "Oxumağa davam et <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lesa meira <span class=\"meta-nav\">&rarr;</span>"
 
 #: comments.php:60
 msgid "Comments are closed."
-msgstr "Şərh üçün bağlıdır."
+msgstr "Ummæli eru ekki leyfð."
 
 #: comments.php:49
 msgid "Newer Comments &rarr;"
-msgstr "Yeni şərhlər &rarr;"
+msgstr "Nýrri athugasemdir &raquo;"
 
 #: comments.php:48
 msgid "&larr; Older Comments"
-msgstr "&larr; Əski şərhlər"
+msgstr "&laquo; Eldri athugasemdir"
 
 #: comments.php:46
 msgid "Comment navigation"
-msgstr "Şərh naviqasiyası"
+msgstr "Leiðastýring athugasemda"
 
 #: comments.php:28
 msgctxt "comments title"
 msgid "One thought on &ldquo;%2$s&rdquo;"
 msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
-msgstr[0] "&ldquo;%2$s&rdquo; üzərinə bir şərh"
-msgstr[1] "&ldquo;%2$s&rdquo; üzərinə %1$s şərh"
+msgstr[0] "Ein athugasemd við &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s athugasemdir við &ldquo;%2$s&rdquo;"
 
 #: archive.php:72
 msgid "Archives"
-msgstr "Arxivlər"
+msgstr "Sarpur"
 
 #: archive.php:66
 msgid "Projects"
-msgstr "Layihələr"
+msgstr "Verkefni"
 
 #: archive.php:63
 msgid "Chats"
-msgstr "Söhbətlər"
+msgstr "Samtöl"
 
 #: archive.php:60
 msgid "Audios"
-msgstr "Audiolar"
+msgstr "Hljóðskrár"
 
 #: archive.php:57
 msgid "Statuses"
-msgstr "Statuslar"
+msgstr "Stöður"
 
 #: archive.php:54
 msgid "Links"
-msgstr "Bağlantılar"
+msgstr "Tenglar"
 
 #: archive.php:51
 msgid "Quotes"
-msgstr "Sitatlar"
+msgstr "Tilvitnanir"
 
 #: archive.php:48
 msgid "Videos"
-msgstr "Videolar"
+msgstr "Myndbönd"
 
 #: archive.php:45
 msgid "Images"
-msgstr "Təsvirlər"
+msgstr "Myndir"
 
 #: archive.php:42
 msgid "Galleries"
-msgstr "Qalereyalar"
+msgstr "Myndasöfn"
 
 #: archive.php:39
 msgid "Asides"
-msgstr "Kənarlar"
+msgstr "Innskot"
 
 #: archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
-msgstr "İ"
+msgstr "Y"
 
 #: archive.php:36
 msgid "Year: %s"
-msgstr "Ay: %s"
+msgstr "Ár: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
-msgstr "Fİ"
+msgstr "F Y"
 
 #: archive.php:33
 msgid "Month: %s"
-msgstr "Ay: %s"
+msgstr "Mánuður: %s"
 
 #: archive.php:30
 msgid "Day: %s"
-msgstr "Gün: %s"
+msgstr "Dagur: %s"
 
 #: archive.php:27
 msgid "Author: %s"
-msgstr "Müəllif: %s"
+msgstr "Höfundur: %s"
 
 #. translators: %1$s: smiley
 #: 404.php:44
 msgid "Try looking in the monthly archives. %1$s"
-msgstr "Aylıq arxivlərə baxmağı yoxlayın. %1$s"
+msgstr "Þú gætir prófað að leita í mánaðarskiptu greinasafni. %1$s"
 
 #: 404.php:27
 msgid "Most Used Categories"
-msgstr "Ən sıx istifadə edilən kateqoriyalar"
+msgstr "Mest notaðir flokkar"
 
 #: 404.php:19
 msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
-msgstr "Burada heç bir şeyin tapılmadığı görünür. Bəlkə aşağıdakı bağlantılardan birini yoxlayasan və ya bir axtarış edəsən?"
+msgstr "Svo virðist sem ekkert hafi fundist á þessari slóð. Þú gætir reynt einn af tenglunum hér að neðan eða leitina?"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
-msgstr "Bağışlayın! Bu səhifə tapılmır."
+msgstr "Úbbs! Þessi síða fannst ekki."

@@ -2,16 +2,35 @@
 # This file is distributed under the same license as the WordPress.com - Themes - Illustratr package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2014-11-27 03:46:33+0000\n"
+"PO-Revision-Date: 2017-03-23 07:32:39+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: GlotPress/2.1.0-alpha\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
 "Language: ru\n"
 "Project-Id-Version: WordPress.com - Themes - Illustratr\n"
 
-#: functions.php:96
+#: inc/wpcom-colors.php:168
+msgid "Accent"
+msgstr "Акцент"
+
+#: inc/wpcom-colors.php:9
+msgid "Background"
+msgstr "Фон"
+
+#. translators: used between list items, there is a space after the comma
+#: content-aside.php:45 content-audio.php:74 content-gallery.php:62
+#: content-image.php:56 content-link.php:45 content-quote.php:51
+#: content-status.php:49 content-video.php:74 content.php:84
+msgid "Tagged"
+msgstr "Отмечено"
+
+#: inc/jetpack.php:120
+msgid "Older projects"
+msgstr "Более старые проекты"
+
+#: functions.php:104
 msgid "Footer"
 msgstr "Подвал"
 
@@ -54,19 +73,19 @@ msgctxt "1: date, 2: time"
 msgid "%1$s at %2$s"
 msgstr "%1$s в %2$s"
 
-#: inc/template-tags.php:64
-msgctxt "Previous post link"
-msgid "<span class=\"meta-nav\">&larr;</span> %title"
-msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+#: inc/template-tags.php:87
+msgid "Pingback:"
+msgstr "Уведомление:"
 
 #: inc/template-tags.php:65
 msgctxt "Next post link"
 msgid "%title <span class=\"meta-nav\">&rarr;</span>"
 msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:87
-msgid "Pingback:"
-msgstr "Уведомление:"
+#: inc/template-tags.php:64
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
 
 #: inc/template-tags.php:61
 msgid "Post navigation"
@@ -76,38 +95,42 @@ msgstr "Навигация по записям"
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr "Следующее <span class=\"meta-nav\">&rarr;</span>"
 
-#: inc/template-tags.php:28
-msgid "Posts navigation"
-msgstr "Навигация по записям"
-
 #: inc/template-tags.php:32
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущее"
+
+#: inc/template-tags.php:28
+msgid "Posts navigation"
+msgstr "Навигация по записям"
 
 #: inc/extras.php:104
 msgid "Page %s"
 msgstr "Страница %s"
 
-#: inc/customizer.php:29
+#: inc/customizer.php:24
 msgid "Hide title and content on Portfolio Page Template"
 msgstr "Скрыть заголовок и содержимое страницы шаблона портфолио"
 
-#: inc/customizer.php:19
-msgid "Theme Options"
-msgstr "Настройки темы"
-
-#: header.php:43
+#: header.php:42
 msgid "Skip to content"
 msgstr "Перейти к содержимому"
 
-#: header.php:42
+#: header.php:41
 msgid "Menu"
 msgstr "Меню"
+
+#. translators: If there are characters in your language that are not supported
+#. * by Source Code Pro, translate this to 'off'. Do not translate into your
+#. own language.
+#: functions.php:190
+msgctxt "Source Code Pro font: on or off"
+msgid "on"
+msgstr "on"
 
 #. translators: To add an additional PT Serif character subset specific to your
 #. language, translate this to 'cyrillic'. Do not translate into your own
 #. language.
-#: functions.php:154
+#: functions.php:162
 msgctxt "PT Serif font: add new subset (cyrillic)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -115,23 +138,15 @@ msgstr "no-subset"
 #. translators: If there are characters in your language that are not supported
 #. * by PT Serif, translate this to 'off'. Do not translate into your own
 #. language.
-#: functions.php:150
+#: functions.php:158
 msgctxt "PT Serif font: on or off"
-msgid "on"
-msgstr "on"
-
-#. translators: If there are characters in your language that are not supported
-#. * by Source Code Pro, translate this to 'off'. Do not translate into your
-#. own language.
-#: functions.php:182
-msgctxt "Source Code Pro font: on or off"
 msgid "on"
 msgstr "on"
 
 #. translators: To add an additional Source Sans Pro character subset specific
 #. to your language, translate this to 'vietnamese'. Do not translate into your
 #. own language.
-#: functions.php:122
+#: functions.php:130
 msgctxt "Source Sans Pro font: add new subset (vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
@@ -139,16 +154,16 @@ msgstr "no-subset"
 #. translators: If there are characters in your language that are not supported
 #. * by Source Sans Pro, translate this to 'off'. Do not translate into your
 #. own language.
-#: functions.php:118
+#: functions.php:126
 msgctxt "Source Sans Pro font: on or off"
 msgid "on"
 msgstr "on"
 
-#: functions.php:68
+#: functions.php:76
 msgid "Social Menu"
 msgstr "Меню социальных сетей"
 
-#: functions.php:67
+#: functions.php:75
 msgid "Primary Menu"
 msgstr "Основное меню"
 
@@ -156,14 +171,14 @@ msgstr "Основное меню"
 msgid "Theme: %1$s by %2$s."
 msgstr "Тема: %1$s, автор: %2$s."
 
+#: footer.php:28
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
 #: content-portfolio-single.php:16 content-portfolio.php:21 content.php:42
 msgctxt "Used between list items, there is a space after the comma."
 msgid ", "
 msgstr ", "
-
-#: footer.php:28
-msgid "Proudly powered by %s"
-msgstr "Сайт работает на %s"
 
 #: content-none.php:28 page-templates/portfolio-page.php:90
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -181,39 +196,36 @@ msgstr "Готовы опубликовать свою первую запись
 msgid "Nothing Found"
 msgstr "Не найдено"
 
-#: content-aside.php:55 content-audio.php:84 content-gallery.php:72
-#: content-image.php:66 content-link.php:55 content-page.php:36
-#: content-portfolio-single.php:43 content-quote.php:61 content-status.php:59
-#: content-video.php:84 content.php:95 inc/template-tags.php:87
+#: content-aside.php:51 content-audio.php:80 content-gallery.php:68
+#: content-image.php:62 content-link.php:51 content-page.php:36
+#: content-portfolio-single.php:43 content-quote.php:57 content-status.php:55
+#: content-video.php:80 content.php:91 inc/template-tags.php:87
 #: inc/template-tags.php:121 page-templates/portfolio-page.php:36
 msgid "Edit"
 msgstr "Изменить"
 
-#: content-aside.php:52 content-audio.php:81 content-gallery.php:69
-#: content-image.php:63 content-link.php:52 content-page.php:33
-#: content-portfolio-single.php:40 content-quote.php:58 content-status.php:56
-#: content-video.php:81 content.php:92
+#: content-aside.php:48 content-audio.php:77 content-gallery.php:65
+#: content-image.php:59 content-link.php:48 content-page.php:33
+#: content-portfolio-single.php:40 content-quote.php:54 content-status.php:52
+#: content-video.php:77 content.php:88
 msgid "% Comments"
 msgstr "Комментарии (%)"
 
-#: content-aside.php:52 content-audio.php:81 content-gallery.php:69
-#: content-image.php:63 content-link.php:52 content-page.php:33
-#: content-portfolio-single.php:40 content-quote.php:58 content-status.php:56
-#: content-video.php:81 content.php:92
+#: content-aside.php:48 content-audio.php:77 content-gallery.php:65
+#: content-image.php:59 content-link.php:48 content-page.php:33
+#: content-portfolio-single.php:40 content-quote.php:54 content-status.php:52
+#: content-video.php:77 content.php:88
 msgid "1 Comment"
 msgstr "1 комментарий"
 
-#: content-aside.php:52 content-audio.php:81 content-gallery.php:69
-#: content-image.php:63 content-link.php:52 content-page.php:33
-#: content-portfolio-single.php:40 content-quote.php:58 content-status.php:56
-#: content-video.php:81 content.php:92
+#: content-aside.php:48 content-audio.php:77 content-gallery.php:65
+#: content-image.php:59 content-link.php:48 content-page.php:33
+#: content-portfolio-single.php:40 content-quote.php:54 content-status.php:52
+#: content-video.php:77 content.php:88
 msgid "Leave a comment"
 msgstr "Оставить комментарий"
 
-#: content-aside.php:48 content-audio.php:77 content-gallery.php:65
-#: content-image.php:59 content-link.php:48 content-portfolio-single.php:36
-#: content-quote.php:54 content-status.php:52 content-video.php:77
-#: content.php:87
+#: content-portfolio-single.php:36
 msgid "Tagged %1$s"
 msgstr "Метки: %1$s"
 
@@ -267,13 +279,13 @@ msgstr[2] "%2$s: %1$s комментариев"
 msgid "Archives"
 msgstr "Архивы"
 
-#: archive.php:63
-msgid "Chats"
-msgstr "Чаты"
-
 #: archive.php:66
 msgid "Projects"
 msgstr "Проекты"
+
+#: archive.php:63
+msgid "Chats"
+msgstr "Чаты"
 
 #: archive.php:60
 msgid "Audios"
@@ -308,26 +320,26 @@ msgid "Asides"
 msgstr "Заметки"
 
 #: archive.php:36
-msgid "Year: %s"
-msgstr "Год: %s"
-
-#: archive.php:36
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
+
+#: archive.php:36
+msgid "Year: %s"
+msgstr "Год: %s"
 
 #: archive.php:33
 msgctxt "monthly archives date format"
 msgid "F Y"
 msgstr "F Y"
 
-#: archive.php:30
-msgid "Day: %s"
-msgstr "День: %s"
-
 #: archive.php:33
 msgid "Month: %s"
 msgstr "Месяц: %s"
+
+#: archive.php:30
+msgid "Day: %s"
+msgstr "День: %s"
 
 #: archive.php:27
 msgid "Author: %s"

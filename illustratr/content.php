@@ -81,11 +81,7 @@ $format = get_post_format();
 
 				<?php
 					/* translators: used between list items, there is a space after the comma */
-					$tags_list = get_the_tag_list( '', __( ', ', 'illustratr' ) );
-					if ( $tags_list ) :
-				?>
-					<span class="tags-links"><?php printf( __( 'Tagged %1$s', 'illustratr' ), $tags_list ); ?></span>
-				<?php endif; // End if $tags_list ?>
+					the_tags( sprintf( '<span class="tags-links">%s ', esc_html__( 'Tagged', 'illustratr' ) ), esc_html__( ', ', 'illustratr' ), '</span>' ); ?>
 			<?php endif; // End if 'post' == get_post_type() ?>
 
 			<?php if ( ! post_password_required() && ( comments_open() || '0' != get_comments_number() ) ) : ?>

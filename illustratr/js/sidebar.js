@@ -7,6 +7,14 @@
 		$( '#secondary' ).on( 'click', '.widgets-trigger', function( event ) {
 			event.preventDefault();
 			$( this ).toggleClass( 'active' );
+
+			// Remove mejs players from sidebar
+			$( '#secondary .mejs-container' ).each( function( i, el ) {
+				if ( mejs.players[ el.id ] ) {
+					mejs.players[ el.id ].remove();
+				}
+			} );
+
 			if( $( this ).hasClass( 'active' ) ) {
 				$( '.widgets-wrapper' ).slideDown( 250 );
 				// Trigger resize to make sure widgets fit prefectly.
@@ -31,6 +39,24 @@
 					widgets_area.children( '.widget' ).animate( {
 						'opacity' : 1
 					}, 250 );
+				} );
+
+				// Re-initialize mediaelement players.
+				setTimeout( function() {
+					if ( window.wp && window.wp.mediaelement ) {
+						window.wp.mediaelement.initialize();
+					}
+				} );
+
+				// Trigger resize event to display VideoPress player.
+				setTimeout( function(){
+					if ( typeof( Event ) === 'function' ) {
+						window.dispatchEvent( new Event( 'resize' ) );
+					} else {
+						var event = window.document.createEvent( 'UIEvents' );
+						event.initUIEvent( 'resize', true, false, window, 0 );
+						window.dispatchEvent( event );
+					}
 				} );
 			} else {
 				$( '.widgets-wrapper' ).slideUp( 250 );
