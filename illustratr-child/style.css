@@ -5,7 +5,7 @@
  Author:       Alex Nussey
  Author URI:   http://solderthoughts.com
  Template:     illustratr
- Version:      1.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark
@@ -30,6 +30,6 @@
 }
 
 /* Remove the extra line that appears above the sharing toolbar from jetpack */
-div.sharedaddy h3.sd-title:before {
+div.sharedaddy div.sd-social h3.sd-title:before {
   content: none;
 }
